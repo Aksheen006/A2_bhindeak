@@ -3,6 +3,10 @@ package ca.sheridancollege.bhindeak.passwordstorebhindeak.beans;
 import jakarta.persistence.*;
 import lombok.*;
 
+/**
+ * Author: Aksheen Bhinder
+ * Student ID: 991762812
+ */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
