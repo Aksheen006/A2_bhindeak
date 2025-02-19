@@ -1,9 +1,9 @@
-CREATE TABLE passwords (
-    id BIGINT AUTO_INCREMENT PRIMARY KEY,
-    title VARCHAR(255),
-    username VARCHAR(255),
-    password VARCHAR(255),
-    url VARCHAR(255),
-    email VARCHAR(255),
-    notes VARCHAR(255)
+CREATE TABLE IF NOT EXISTS passwords (
+                                         id BIGINT PRIMARY KEY AUTO_INCREMENT,
+                                         title VARCHAR(255) NOT NULL,
+                                         username VARCHAR(255) NOT NULL,
+                                         password VARCHAR(255) NOT NULL,
+                                         url VARCHAR(500),
+                                         email VARCHAR(255),
+                                         notes TEXT
 );
